@@ -4,7 +4,10 @@
 ## Requirements
 
 - Unix/Linux Shell
-- Postman
+- [Dredd](http://dredd.readthedocs.io/en/latest/)
+- [Postman](https://www.getpostman.com/)
+- draw.io
+- Read [Adidas API Guidelines](https://adidas-group.gitbooks.io/api-guidelines/content/)
 
 ## Design
 
@@ -24,10 +27,7 @@ You've decided wisly to think [API First](https://adidas-group.gitbooks.io/api-g
 
 ## Step1. Let's create a state machine diagram
 
-Task
-```
-In this step we draw out a state diagrams for the proposed API. Each box in the diagram represents a possible representation. You can use arrows to indicate transitions from one box to the next.
-```
+Task: In this step we draw out a state diagrams for the proposed API. Each box in the diagram represents a possible representation. You can use arrows to indicate transitions from one box to the next.
 
 You can use [draw.io](draw.io)
 
@@ -36,18 +36,13 @@ This state machine diagram will help you to identify the main ressources and the
 
 ## Step2. Let's describe what actions our API affords
 
-Task
-```
 List all the API affordances
-```
 
 
 ## Step3. Formalize the design in the [Open API Specification](http://swagger.io/specification/)
 
-Task 
-```
-Write an open api specification
-```
+Task: Write an open api specification
+
 
 > The OAS file can be edited in whatever tool you like *BUT NOT GENERATED FROM YOUR CODE*, the most important thing is that the aprouved one (the contract) *MUST* be in Apiary.
 
@@ -55,10 +50,7 @@ Write an open api specification
 
 ## Step4. Verify the design using Apiary Documentation and Apiary Mock Service
 
-Task
-```
-Try the Apiary mock service
-```
+Task: Try the Apiary mock service
 
 ## Step5. Review the API Design
 
