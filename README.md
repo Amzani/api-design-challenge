@@ -20,8 +20,8 @@ This state machine diagram will help you to identify the main ressources and the
 ## Step3. Formalize the design in the [Open API Specification](http://swagger.io/specification/)
 
 
-[Swagger](./swagger.yml)
-[Documentation](https://playvideoapi.docs.apiary.io)
+- [Swagger](./swagger.yml)
+- [Documentation](https://playvideoapi.docs.apiary.io)
 
 
 ## Develop the API
