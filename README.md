@@ -92,24 +92,42 @@ If your API looks like this remote control then your design is affordant and con
 Sample APIs following the guidelines are available at [adidas-group GitHub](https://github.com/adidas-group). The samples include the following:
 
 
-## [Simple API](https://github.com/adidas-group/demo-simple-api)
+### [Simple API](https://github.com/adidas-group/demo-simple-api)
 Very simple API including implementation, testing, and full CI/CD lifecycle.
 
-## [Approval API](https://github.com/adidas-group/demo-approval-api)
+### [Approval API](https://github.com/adidas-group/demo-approval-api)
 Real-world API with state transition, API key client app authentication, exposed via API management.
 
-## [Orders API](https://github.com/adidas-group/demo-orders-api)
+### [Orders API](https://github.com/adidas-group/demo-orders-api)
 Sample API used as the template for newly created projects at Apiary.
 
-## [Inventory API](https://eainventoryapi.docs.apiary.io/)
+### [Inventory API](https://eainventoryapi.docs.apiary.io/)
 Real-world Adidas Inventory API (WIP)
 
-## [Appointment Service](https://github.com/adidas-group/demo-appointment-service)
+### [Appointment Service](https://github.com/adidas-group/demo-appointment-service)
 Demo API, including implementation and testing used during training.
 
-## [Complex Search Parameters](https://github.com/adidas-group/demo-complex-search)
+### [Complex Search Parameters](https://github.com/adidas-group/demo-complex-search)
 Sample API showcasing description of complex query parameter rules.
 
+### [CPM] Asset Trafficker https://assetmanager4.docs.apiary.io/
+
+
+
+## Some example of bad designed APIs
+
+### [[Sales and Distribution] Returns Confirmation API](https://returnsconfirmation.docs.apiary.io/)
+Missing description
+Missing examples
+Missing HAL
+Exposing internal model
+Missing support contact
+
+### [ATP Notification Service](https://atpnotificationservice.docs.apiary.io/)
+Usage of acronyms, what's ATP ?
+Missing description / context
+Missing HAL
+Missing support contact
 
 
 
